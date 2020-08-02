@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation course" verbose="1" >
+    <parameter name="browser"  value="firefox"/>
+    <test name="Testing TestNG" >
+        <classes>
+            <class name="Validate_AccountCreation">
+            </class>
+        </classes>
+    </test>
+</suite>
